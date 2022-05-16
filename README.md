@@ -6,7 +6,7 @@ This module has been tested on my XT2071-3 but is not guaranteed to work on your
 What the module does:
 - defines open and closed states in `device_state_configuration.xml`
 - defines which displays should be enabled during each state in `display_layout_configuration.xml`
-- adds an overlay that removes the device cutout from the cli display
+- adds an overlay that removes the display cutout from the cli display
 - adds an overlay that defines which state is folded, the device postures, and prevents both displays from being on at the same time
 
 Bugs:
@@ -19,7 +19,7 @@ Other things:
 - the cli display is lacking many System UI tweaks to make it usable
 - foldable support is a new feature of Android, so this tweak may stop working with any update
 - this is not the same configuration used on the stock firmware
-- you will need to install my Xposed module to prevent the system from crashing on close (link soon)
+- you will need to install this Xposed module to prevent the system from crashing when the lid is closed: https://github.com/BigZucc41/Razr5G-Cli-Lid-Functions
 - you will need to install this magisk module to fix the touch screen: https://github.com/BigZucc41/Razr5G-Synaptics-Touchscreen-Device-Associations
 
 Sources:
