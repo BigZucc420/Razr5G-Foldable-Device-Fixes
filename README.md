@@ -19,8 +19,8 @@ Other things:
 - the cli display is lacking many System UI tweaks to make it usable
 - foldable support is a new feature of Android, so this tweak may stop working with any update
 - this is not the same configuration used on the stock firmware
-- you will need to install this Xposed module to prevent the system from crashing when the lid is closed: https://github.com/BigZucc41/Razr5G-Cli-Lid-Functions
-- you will need to install this magisk module to fix the touch screen: https://github.com/BigZucc41/Razr5G-Synaptics-Touchscreen-Device-Associations
+- you will need to install this Xposed module to prevent the system from crashing when the lid is closed: https://github.com/BigZucc420/Razr5G-Cli-Lid-Functions
+- you will need to install this magisk module to fix the touch screen: https://github.com/BigZucc420/Razr5G-Synaptics-Touchscreen-Device-Associations
 
 Sources:
 - AOSP official documentation (https://source.android.com/s/results?q=display)
